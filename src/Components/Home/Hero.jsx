@@ -1,3 +1,5 @@
+import Burger from '../../Assets/burger.png'
+
 export default function Hero() {
   return (
     <div className="height2 bg-black grid text-white grid-cols-2">
@@ -14,7 +16,9 @@ export default function Hero() {
             <button className="bg-green-500 text-white font-semibold text-sm px-6 duration-300 active:scale-95 hover:bg-green-600 border-2 border-white h-12 center rounded-full">Search</button>
         </div>
       </div>
-      <div className=""></div>
+      <div className="center">
+        <img src={Burger} alt="" className='h-[525px] object-contain'/>
+      </div>
     </div>
   );
 }

@@ -14,7 +14,7 @@ export default function Download() {
           <p className="w-full text-center lg:text-start lg:w-[40ch] text-base lg:text-xl ">
             Enjoy swift deliveries on anything you order!
           </p>
-          <div className="flex items-center gap-3">
+          <div className="flex items-center gap-5">
             <img src={Play} alt="" className="h-8 lg:h-12"/>
             <img src={App} alt="" className="h-8 lg:h-12"/>
           </div>
